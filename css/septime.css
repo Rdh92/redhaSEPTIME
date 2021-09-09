@@ -1,0 +1,70 @@
+/* page css redhaSEPTIME  */
+
+body{
+    text-align: center;
+    background-color: #fff;
+    width: 1000px;
+    margin-left: 250px;
+    border-color: #fdf6ed;
+    border-
+    }
+
+header{
+    background-color: #fea500;
+}
+
+#un{
+    float: left;
+    box-sizing: border-box;
+}
+
+
+.regale{
+    float: left;
+    margin-top: 10%;
+}
+
+#assiette img{
+    float: left;
+    box-sizing: border-box;
+    margin-top: 1px;
+    width: 500px;
+    height: 500px;
+}
+
+#salle img{
+    float: left;
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+}
+
+#service{
+    float: left;
+    box-sizing: border-box;
+}
+
+#dressage img{
+    float: left;
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+}
+
+#gout img{
+    float: left;
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+}
+
+.clear{
+    clear: both;
+}
+
+footer{
+    float: left;
+    background-color: #ff4500;
+}
+
+
