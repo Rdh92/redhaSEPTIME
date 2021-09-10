@@ -132,10 +132,36 @@ p{
     text-transform: uppercase;
 }
 
+
+/* le pied de page  */
 footer{
-    height: 300px;
-    background-color: orange;
+    height: 350px;
     text-align: center;
+    padding-bottom: 100px;
+}
+
+footer h2{
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    line-height: 50px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    letter-spacing: .5em;
+}
+
+footer figcaption{
+    position: relative;
+    bottom: 100px;
+    font-weight: bold;
+    margin: auto;
+    background-color: #fff;
+}
+
+address{
+    font-family: serif;
+    font-size: smaller;
+    text-transform: uppercase;
 }
 
 .sous-section{
@@ -177,7 +203,10 @@ footer{
 
 .img-assiette{
     background-image: url(../img/assiette.png);
-    object-position: 50% 50%;
+    background-repeat: no-repeat;
+    /* object-position: 50% 50%; */
+    background-position: center;
+    background-size: 80%;
 }
 
 .img-resto-01{
